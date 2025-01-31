@@ -1,0 +1,160 @@
+/* General reset */
+body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(8, 7, 29, 0.74);
+     height: 85px;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   
+ 
+  
+   
+  }
+  
+  .navbar .logo {
+    font-size: 52px;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    padding-right: 40px;
+   
+  }
+  
+  .nav-links li {
+    display: inline;
+   
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  
+  }
+.span1{
+  color: rgba(178,112,255,1);
+ margin: 0px 5px;
+}
+ .hero{
+ height: 100vh;
+ background: url("cab441453940000b2cfd697bc063646e.png")no-repeat center ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ 
+
+  }
+  .hero-content{
+    width: 100%;
+  }
+.hero-content h1 {
+  font-size: 48px;
+ margin-top: 280px;
+ color: white;
+}
+.hero-content p {
+  font-size:38px;
+ margin-top: 340px;
+  background-color:rgba(8, 7, 29, 0.74);
+  width: 100%;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.content{
+  display: flex;
+  height: 400px;
+}
+.description{
+  font-weight: 500px;
+  font-family:  Josefin Sans;
+}
+.text-section{
+  padding-top: 40px;
+  padding-left: 150px;
+  width: 50%;
+}
+.cta{
+  font-size: 25px;
+  background-color: violet;
+  color: white;
+  border: none;
+padding: 7px;
+}
+.images{
+  display: flex;
+  width: 50%;
+}
+.content1{
+  display: flex;
+  height: 400px;
+}
+.text-section1{
+  padding-top: 40px;
+  padding-left: 250px;
+  width: 50%;
+}
+.images1{
+  display: flex;
+  padding-top: 40px;
+  padding-left: 150px;
+  width: 50%;
+}
+.content2{
+  display: flex;
+  height: 420px;
+}
+.text-section2{
+  padding-top: 40px;
+  padding-left: 150px;
+  width: 50%;
+}
+.images2{
+  display: flex;
+  width: 50%;
+  padding-left: 190px;
+}
+
+.Transform{
+  background: url("1fd449482317fb4e914b82f7b9ee642a.png");
+  height: 300px;
+  
+}
+.Transform{
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+#about{
+  height: 500px;
+  background-color: aqua;
+}

@@ -1,0 +1,145 @@
+/* General reset */
+body, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgba(8, 7, 29, 0.74);
+   height: 85px;
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+ 
+
+
+ 
+}
+
+.navbar .logo {
+  font-size: 52px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  padding-right: 40px;
+ 
+}
+
+.nav-links li {
+  display: inline;
+ 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+
+}
+.about-content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ margin-top: 150px;
+font-weight: 600;
+}
+.about-content p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: Fixed(1727px);
+  font-weight: 400;
+}
+.about-image{
+  background: url("3707f086d7d649475037a2323d096b60\ .png")no-repeat center;
+ height: 800px;
+ margin-top: 80px;
+}
+.about-image h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+ /* padding-top: 700px;
+ padding-left: 30px; */
+}
+.hero-content{
+  width: 100%;
+}
+.hero-content h1 {
+font-size: 48px;
+margin-top: 280px;
+color: white;
+}
+.hero-content p {
+font-size:38px;
+margin-top: 340px;
+background-color:rgba(8, 7, 29, 0.74);
+width: 100%;
+color: white;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 500;
+}
+.content{
+display: flex;
+height: 300px;
+margin-top: 70px;
+
+
+}
+.text-section{
+margin-top: 20px;
+margin-left: 150px;
+width: 50%;
+height: 510px;
+
+}
+.text-section h1{
+  font-size: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+ 
+}
+.text-section p{
+  font-weight: 400;
+  margin-left: 50px;
+  font-size: 16px;
+  line-height: 25px;
+  
+  
+}
+.cta{
+font-size: 25px;
+background-color: violet;
+color: white;
+border: none;
+}
+.images{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+}
